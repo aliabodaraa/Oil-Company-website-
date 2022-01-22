@@ -1,0 +1,116 @@
+/* Testimonial Carousel styles */
+.testimonial-carousel-nav{
+    position: absolute;
+    right: 15px;
+    top: -90px;
+    display: flex;
+    .nav-common-style{
+        font-size: 22px;
+        line-height: 32px;
+        padding: 0px 16px 3px;
+        border-radius: 0px;
+        cursor: pointer;
+        color: $color-white;
+        transition: .4s;
+    }
+    .owl-prev{
+        @extend .nav-common-style;
+        background-color: $color-alternet;
+        border: 2px solid $color-alternet;
+        &.disabled {
+            background-color: $color-alternet-light;
+        }
+        &:hover {
+            color: $color-primary;
+            border: 2px solid $color-primary;
+        }
+    }
+    .owl-next {
+        @extend .nav-common-style;
+        background-color: $color-primary;
+        border: 2px solid $color-primary;
+        &.disabled {
+            background-color: $color-secondary;
+        }
+        &:hover {
+            color: $color-alternet;
+            border: 2px solid $color-alternet;
+        }
+    }
+}
+
+.testimonial-carousel{
+    .testi-text-area,
+    .client-info{
+        display: flex;
+    }
+    .testi-text-area{
+        border: 1px solid $color-blue-white-light;
+        border-radius: 4px;
+        padding: 42px 13px 20px;
+        position: relative;
+        margin-bottom: 23px;
+        i{
+            color: $color-blue-white-light;
+            font-size: 32px;
+            padding-right: 18px;
+            position: relative;
+            top: -8px;
+        }
+        p{
+            color: $color-blue-white;
+        }
+        .arrow{
+            position: absolute;
+            top: 100%;
+            left: 56px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 15px 19px 0 0;
+            border-color: $color-blue-white-light transparent transparent transparent;
+            transition: 0.5s;
+            &::after{
+                content: "";
+                position: absolute;
+                bottom: 2px;
+                left: 1px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 13px 17px 0 0;
+                border-color: #fff transparent transparent transparent;
+                transition: 0.5s;
+            
+            }
+        }
+        
+    }
+    .client-info{
+        padding-left: 32px;
+        .client-info-thumb{
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+            overflow: hidden;
+        }
+        .client-info-text{
+            padding-left: 20px;
+            p{
+                margin-bottom: 0;
+            }
+            .client-testi-name{
+                color: $color-secondary;
+                font-weight: 600;
+            }
+            .client-testi-positon{
+                color: $color-secondary;
+                span{
+                    color: $color-blue-white;
+                    text-decoration: underline;
+                }
+            }
+        }
+        
+    }
+}

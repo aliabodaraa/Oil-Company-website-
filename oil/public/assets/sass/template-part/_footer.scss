@@ -1,0 +1,86 @@
+/*============================================
+* 14. Footer Style
+* ============================================ */
+
+#footer-widget-area{
+    background-color: $color-primary;
+    padding: 85px 0 65px;
+    p,
+    a,
+    .footer-widget-title{
+        color: $color-blue-white-light;
+    }
+    .footer-widget{
+        margin-bottom: 32px;
+    }
+    .widget-logo{
+        color:$color-white;
+        margin-bottom: 20px;
+        font-size: 2.625rem;
+        font-weight: 700;
+        span{
+            color: $color-alternet;
+        }
+    }
+    .footer-widget-title{
+        font-weight: 700;
+        margin: 25px 0 20px;
+    }
+    .footer-icon-text{
+        display: flex;
+        margin-bottom: 20px;
+        .footer-icon{
+            color: $color-blue-white-light;
+            padding-right: 10px;
+        }
+        .footer-icon-info{
+            p{
+                margin: 0;
+            }
+        }
+        &:nth-of-type(2){
+            margin-bottom: 0px;
+        }
+    }
+    .footer-single-link{
+        span{
+            color: $color-blue-white-light;
+            padding-right: 10px;
+            font-size: 16px;
+        }
+    }
+}
+
+#footer-copyright-area{
+    background-color: $color-secondary;
+    padding: 15px 0;
+    p,
+    a,
+    ul{
+        color: $color-white;
+        margin: 0;
+        font-size: 0.85rem;
+        line-height: 1rem;
+    }
+    nav{
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+                a{
+                    display: block;
+                    padding: 0 15px;
+                }
+                border-left: 1px solid $color-blue-white-light;
+                &:first-child{
+                    border-left: none;
+                }
+                &:last-child{
+                    padding-right: 0;
+                }
+            }
+            
+        }
+    }
+    
+}

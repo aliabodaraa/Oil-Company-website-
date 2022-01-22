@@ -1,0 +1,40 @@
+/* About Page styles */
+.about-gallery-text{
+    padding-bottom: 75px;
+}
+.about-img-gallery{
+    padding-right: 40px;
+    img{
+        margin-bottom: 20px;
+    }
+}
+.about-text{
+    padding-left: 40px;
+    h3{
+        margin-bottom: 32px;
+        font-weight: 600;
+    }
+    
+}
+.history-about{
+    margin-bottom: 62px;
+}
+
+#skills{
+    padding: 100px 0 80px;
+    background-color: $color-off-white;
+    h5{
+        margin-bottom: 50px;
+        color: $color-secondary;
+    }
+}
+
+#management{
+    padding: 100px 0;
+    h3{
+        font-weight: 700;
+    }
+    p{
+        margin-bottom: 32px;
+    }
+}

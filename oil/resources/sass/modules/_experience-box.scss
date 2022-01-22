@@ -1,0 +1,21 @@
+/* Experiance Box Style */
+.experience-box{
+    margin-top: 64px;
+    position: relative;
+    .exp-img-wrapper{
+        padding: 0 0 17px 40px;
+        
+    }
+    .exp-title{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        h4{
+            padding: 17px 20px;
+            font-weight: 700;
+            color: $color-off-white;
+            background-color: $color-secondary;
+            display: inline-block;
+        }
+    }
+}

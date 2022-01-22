@@ -1,0 +1,25 @@
+/* Service Detial Page Style */
+.service-detail-page{
+    h3{
+        font-weight: 700;
+        color: $color-secondary;
+        margin-bottom: 38px;
+    }
+    p{
+        margin-bottom: 32px;
+    }
+    .image-row{
+        margin-bottom: 65px;
+    }
+}
+.service-table{
+    font-size: 14px;
+    color: $color-blue-white;
+    margin-bottom: 65px;
+    td{
+        &.border-left{
+            border-left: 1px solid $color-blue-white-light;
+        }
+    }
+    
+}

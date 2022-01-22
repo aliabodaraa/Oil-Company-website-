@@ -1,0 +1,67 @@
+.navbar-urbanhouse {
+    
+    padding: 0;
+    padding-top: 10px;
+    .navbar-brand {
+        color: $color-primary;
+        .brand-title{
+            font-weight: bolder;
+            margin: 0;
+            span{
+            color: $color-alternet;
+            }
+        }
+        .brand-tag-line{
+            text-align: right;
+            font-size: 0.72em;
+            margin-bottom: 0;
+        }
+    }
+    .navbar-nav {
+        .nav-link {
+            color: $color-primary;
+            font-weight: bold;
+            padding: 22px 14px;
+            transition: .4s;
+            &:hover{
+                color: $color-alternet;
+            }
+
+            &.disabled {
+            color: $color-secondary;
+            }
+        }
+        .show > .nav-link,
+        .active > .nav-link,
+        .nav-link.show,
+        .nav-link.active {
+            color: $color-alternet;
+            border-bottom: 4px solid $color-alternet;
+        }
+    }
+    .navbar-toggler {
+        color: $color-primary;
+        border-color: $color-primary;
+        cursor: pointer;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(26,41,85, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .navbar-text {
+        color: $color-primary;
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
+    .dropdown-menu{
+        border: none;
+        border-radius: 0;
+        margin: 0;
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    
+}

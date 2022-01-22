@@ -1,0 +1,30 @@
+/* Services Page Style */
+#services-page{
+    margin-bottom: 0;
+}
+#service-experience{
+    padding-bottom: 68px;
+}
+#services-page-detail{
+    h3{
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    h5{
+        
+    }
+    p{
+        margin-bottom: 72px;
+    }
+}
+.our-services{
+    &.in-services-page{
+        background-color: $color-off-white;
+        h6{
+            color: $color-secondary;
+            margin-bottom: 65px;
+        }
+    }
+    
+} 
+

@@ -1,0 +1,15 @@
+/* Tags Widget Style */
+
+.widget_tags{
+    ul{
+        li{
+            display: inline-block;
+            margin-bottom: 10px;
+            a{
+                padding: 10px;
+                border: 1px solid $color-blue-white;
+                display: block;
+            }
+        }
+    }
+}

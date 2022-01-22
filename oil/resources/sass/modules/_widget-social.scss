@@ -1,0 +1,44 @@
+/* Social Widget style */
+
+.widget_social{
+    // position: relative;
+    
+    ul{
+        display: flex;
+        padding: 0;
+        li{
+            list-style: none;
+            
+            a{
+                width: 32px;
+                height: 32px;
+                background: $color-white;
+                text-align: center;
+                line-height: 30px;
+                font-size: 16px;
+                margin: 0 5px;
+                display: block;
+                border-radius: 50%;
+                // position: relative;
+                overflow: hidden;
+                border: 1px solid $color-white;
+                transition: .4s;
+                .fa{
+                    color: $color-primary;
+                    transition: .5s;
+                }
+                &:hover{
+                    border: 1px solid $color-alternet;
+                    .fa{
+                        color: $color-alternet;
+                    }
+                }
+            }
+            &:first-child{
+                a{
+                    margin-left: 0;
+                }
+            } 
+        }
+    }
+}

@@ -1,0 +1,49 @@
+/* Post excerpt style | Single Blog Item Style */
+.single-blog-item{
+    margin-top: 32px;
+
+    .thumbnail-blog-item{
+        position: relative;
+        margin-bottom: 32px;
+        .meta-blog-item{
+            position: absolute;
+            left:0;
+            top: calc(50% - 32px);
+            list-style: none;
+            background-color: $color-alternet;
+            padding: 4px;
+            li{
+                color: $color-white;
+                text-align: center;
+                padding: 6px 0;
+                border-bottom: 1px solid $color-alternet-dark;
+                &:last-child{
+                    border-bottom: none;
+                }
+                &.month-text{
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .post-title{
+        color: $color-secondary;
+        line-height: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .post-meta{
+        p,
+        span,
+        i{
+            color: $color-blue-white;
+            font-size: 0.75rem;
+        }
+        span{
+            margin-right: 10px;
+        }
+        .meta-cat{
+            text-transform: uppercase;
+        }
+    }
+}

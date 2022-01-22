@@ -1,0 +1,143 @@
+/*============================================
+* Responsive fixes with media queries (Non-Mobile First Method)
+* ============================================ */
+@media (max-width: 1268px) {
+  .section-title.with-line::after {
+    content: none;
+    width: 0px;
+    height: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0; }
+
+  .section-sub-title.has-line {
+    margin-right: 0; } }
+@media (max-width: 991px) {
+  .tabed-section .tab-content-wrapper {
+    justify-content: space-around; }
+    .tabed-section .tab-content-wrapper .tab-text-area {
+      max-width: 100%;
+      padding-right: 0; }
+    .tabed-section .tab-content-wrapper figure {
+      margin-top: 15px;
+      max-width: 50%; }
+
+  .widget_most_viewed ul li a {
+    display: flex;
+    flex-direction: column; }
+    .widget_most_viewed ul li a .post-title {
+      padding-left: 0; }
+
+  .about-img-gallery,
+  .about-text {
+    padding: 0px; }
+
+  .history-about {
+    margin-bottom: 50px; }
+
+  .experience-box .exp-img-wrapper {
+    padding: 0 0 17px 25px; }
+
+  .widget_category {
+    padding: 32px 17px; }
+
+  #page-title-area .text-right {
+    text-align: center !important;
+    margin-top: 15px; }
+
+  #footer-copyright-area {
+    text-align: center; }
+    #footer-copyright-area nav {
+      margin-top: 10px; }
+      #footer-copyright-area nav ul {
+        justify-content: center; }
+        #footer-copyright-area nav ul li {
+          display: inline-block; }
+          #footer-copyright-area nav ul li a {
+            text-align: center; } }
+@media (max-width: 767px) {
+  .section-title.with-line::after {
+    content: none;
+    width: 0px;
+    height: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0; }
+
+  .header-top-area {
+    text-align: center; }
+    .header-top-area ul.header-info-left {
+      float: none; }
+      .header-top-area ul.header-info-left li {
+        display: inline-block; }
+    .header-top-area ul.header-info-right {
+      float: none;
+      text-align: center; }
+      .header-top-area ul.header-info-right li {
+        float: none;
+        text-align: center; }
+        .header-top-area ul.header-info-right li a {
+          border: none; }
+        .header-top-area ul.header-info-right li:last-child a {
+          border: none; }
+
+  #page-title-area .uh-breadcrumb {
+    float: left; }
+  #page-title-area .text-right {
+    text-align: center !important;
+    margin-top: 15px; }
+
+  .about-img-gallery {
+    margin-bottom: 30px; }
+
+  .widget_most_viewed ul li a {
+    display: flex;
+    flex-direction: row; }
+    .widget_most_viewed ul li a .post-title {
+      padding-left: 10px; }
+
+  .widget_category {
+    padding: 32px 31px; }
+
+  .contact-us-form button[type='submit'] {
+    width: 100%; }
+
+  #footer-copyright-area .col-md-6 {
+    margin-bottom: 16px;
+    text-align: center; }
+
+  .tabed-section .nav-tabs .nav-item .nav-link {
+    margin-bottom: 15px; }
+
+  .tabed-section .nav-tabs .nav-item .nav-link .tab-number {
+    margin-bottom: 3px; }
+
+  .uh-sidebar {
+    margin-top: 50px; } }
+@media (max-width: 575px) {
+  .item-filter-container .filters li {
+    margin-top: 10px; }
+
+  .uh-pagination .page-link {
+    padding: .3rem .55rem; }
+
+  #comments ol.children {
+    margin-left: 25px; } }
+@media (max-width: 375px) {
+  #about-us #about-counters .counter-nuber {
+    font-size: 1.75rem; }
+
+  .tabed-section .tab-content-wrapper figure {
+    max-width: 80%; } }
+@media (max-width: 320px) {
+  .navbar-urbanhouse .navbar-brand .brand-title {
+    font-size: 2rem; }
+
+  #about-us #about-counters .counter-nuber {
+    font-size: 1.75rem; }
+
+  #about-us #about-counters .counter-title {
+    font-size: .5rem; }
+
+  #comments ol.children {
+    margin-left: 15px; } }

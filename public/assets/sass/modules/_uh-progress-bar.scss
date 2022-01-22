@@ -1,0 +1,21 @@
+/* Urban House Progress Bar */
+.uh-progress{
+    .progress{
+        border-radius: 0;
+        background-color: $color-blue-white-light;
+        .progress-bar{
+            transition: none;
+            border-radius: 0;
+            height: 8px;
+            background-color: $color-alternet;
+            width: 0%;
+        }
+    }
+    .progress-info{
+        margin: 5px 0 32px;
+        display: flex;
+        justify-content: space-between;
+        font-size:  0.875rem;
+        color: $color-secondary;
+    }
+}

@@ -1,0 +1,26 @@
+/*============================================
+* 11. Promo section Style
+* ============================================ */
+
+#promo-section{
+    padding: 50px 0;
+    position: relative;
+    background: url(assets/images/paralax-1.jpg) no-repeat fixed center;
+    &::before{
+        content: '';
+        background-color: rgba(0, 0, 100, .7);
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    .border-right{
+        border-right: 1px solid $color-blue-white;
+    }
+}

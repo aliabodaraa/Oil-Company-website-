@@ -1,0 +1,38 @@
+/* Title Styles */
+.section-title{
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    &.with-line{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            width: 90px;
+            height: 2px;
+            background-color: $color-blue-white-light;
+            bottom: -28px;
+            right: -70px;
+        }
+    }
+    &.with-bottom-line{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            width: 90px;
+            height: 2px;
+            background-color: $color-blue-white-light;
+            bottom: -16px;
+            left: calc(50% - 45px);
+        }
+    }
+}
+.section-sub-title{
+    margin-bottom: 30px;
+    &.has-line{
+        margin-right: 30px;
+    }
+}
+
+

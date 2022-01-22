@@ -1,0 +1,59 @@
+/* Share this Post addon Style */
+.share-this-post{
+    
+    display: inline-flex;
+    background: $color-secondary;
+    padding: 13px 30px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    
+    .share-text{
+        p{
+            color: $color-white;
+            margin: 0;
+            padding-right: 30px;
+        }
+    }
+    .share-links{
+        ul{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            li{
+                list-style: none;
+                
+                a{
+                    width: 32px;
+                    height: 32px;
+                    background: $color-white;
+                    text-align: center;
+                    line-height: 30px;
+                    font-size: 16px;
+                    margin: 0 5px;
+                    display: block;
+                    border-radius: 50%;
+                    // position: relative;
+                    overflow: hidden;
+                    // border: 1px solid $color-white;
+                    transition: .4s;
+                    .fa{
+                        color: $color-primary;
+                        transition: .5s;
+                    }
+                    &:hover{
+                        // border: 1px solid $color-alternet;
+                        background-color: $color-alternet;
+                        .fa{
+                            color: $color-white;
+                        }
+                    }
+                }
+                &:first-child{
+                    a{
+                        margin-left: 0;
+                    }
+                } 
+            }
+        }
+    }
+}

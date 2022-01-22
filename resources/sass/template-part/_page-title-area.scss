@@ -1,0 +1,41 @@
+/*============================================
+* 15. Page Title Area style
+* ============================================ */
+#page-title-area{
+    background-color: $color-primary;
+    padding: 30px 0;
+    margin-bottom: 90px;
+    &.post-title-area{
+        padding: 20px 0;
+        .page-title{
+            font-size: 1.125rem;
+        }
+    }
+    .page-title{
+        color: $color-blue-white-light;
+        font-weight: bold;
+        margin: 0;
+    }
+    .uh-breadcrumb{
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+        background-color: transparent;
+        font-size: 0.875rem;
+        float: right;
+    }
+    .post-meta{
+        margin-top: 10px;
+        p{
+            color: $color-blue-white-light;
+            font-size: 0.875rem;
+            margin: 0;
+            span{
+                margin-right: 10px;
+            }
+            .meta-pub-date{
+                margin-right: 32px;
+            }
+        }
+    }
+}

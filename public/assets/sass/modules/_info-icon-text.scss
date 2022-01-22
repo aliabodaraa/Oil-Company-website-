@@ -1,0 +1,20 @@
+/* Info Icon Text Style */
+.info-icon-text{
+    font-size: 0.875rem;
+    display: flex;
+    background-color: $color-secondary;
+    margin-bottom: 10px;
+    .info-icon{
+        color: #fefefe;
+        padding-right: 18px;
+        font-size: 0.875rem;
+    }
+    .info-icon-info{
+        color: #fefefe;
+        p{
+            font-size: 0.875rem;
+            color: #fefefe;
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+/* Most viewed blog Widget Style */
+.widget_most_viewed{
+    ul{
+        li{
+            margin-bottom: 24px;
+            a{
+                display: flex;
+                .img-holder{
+                    flex: none;
+                    height: 64px;
+                    width: 64px;
+                    position: relative;
+                    .publish-date{
+                        position: absolute;
+                        padding: 4px 0;
+                        left: 0;
+                        bottom: 0;
+                        background-color: $color-alternet;
+                        width: 100%;
+                        p{
+                            color: $color-white;
+                            margin: 0;
+                            padding: 0;
+                            text-align: center;
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .post-title{
+                    padding-left: 10px;
+                    p{
+                        margin: 0
+                    }
+                }
+                
+            }
+        }
+    }
+}

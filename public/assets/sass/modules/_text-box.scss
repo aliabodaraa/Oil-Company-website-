@@ -1,0 +1,60 @@
+/* Button Styles */
+.text-box-icon{
+    display: flex;
+    margin-bottom: 32px;
+    border: 1px solid transparent;
+    transition: .5s;
+    h4{
+        margin-top: 16px;
+        color: $color-secondary;
+    }
+    .icon-box{
+        
+        padding-right: 25px;
+        font-size: 32px;
+        i{
+            color: $color-secondary;
+            transition: .4s;
+        }
+    }
+    &:hover{
+        border: 1px solid $color-alternet;
+        i{
+            color: $color-alternet;
+        }
+    }
+    
+}
+
+.promo-icon-text{
+    padding: 25px 0;
+    display: flex;
+    
+    h3,
+    p{
+        color: #fff;
+        // transition: .4s;
+        span{
+            text-decoration: underline;
+            transition: .4s;
+        }
+        
+    }
+    p{
+        margin: 0;
+    }
+    .icon-wrapper{
+        padding-right: 30px;
+        i{
+            font-size: 36px;
+            color: $color-alternet;
+        }
+    }
+    &:hover{
+        p{
+            span{
+                color: $color-alternet;
+            }
+        }
+    }
+}

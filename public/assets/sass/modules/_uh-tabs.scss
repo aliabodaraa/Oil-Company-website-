@@ -1,0 +1,60 @@
+/* UH-Tabs Style */ 
+
+.tabed-section{
+    .nav-tabs{
+        justify-content: space-between;
+        border-bottom: 1px solid $color-blue-white-light;
+        .nav-item{
+            width: 25%;
+            min-width: 140px;
+            .nav-link{
+                padding: 0;
+                border: none;
+                border-bottom: 3px solid transparent;
+                transition: .4s;
+                div{
+                    padding-left: 18px;
+                }
+                h4{
+                    color: $color-blue-white;
+                }
+                .tab-number{
+                    font-size: 12px;
+                    color: $color-blue-white;
+                }
+                &.active,
+                &:hover{
+                    // border: none;
+                    border-bottom: 3px solid $color-alternet;
+                    .tab-number,
+                    h4{
+                        color: $color-primary;
+                    }
+                }
+            }
+            
+            
+        }
+    }
+    .tab-content{
+        padding-top: 60px;
+    }
+    .tab-content-wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .tab-text-area{
+            padding-right: 45px;
+            max-width: 75%;
+            min-width: 300px;
+            h6{
+                margin-bottom: 30px;
+            }
+        }
+        figure{
+            max-width: 25%;
+            min-width: 200px;
+        }
+    }
+    
+}

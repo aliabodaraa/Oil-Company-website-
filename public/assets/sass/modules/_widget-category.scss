@@ -1,0 +1,48 @@
+/* Category Widget Style */
+.widget_category{
+    padding: 32px 31px;
+    background-color: $color-primary;
+    
+    .widget-title{
+        font-size: 1.125rem;
+        color: $color-white;
+        margin-bottom: 0;
+        border: none;
+        &::after{
+            content: none;
+        }
+    }
+    .widget-content{
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li{
+                border-top: 1px solid $color-blue-white;
+                a{
+                    color: $color-blue-white-light;
+                    padding: 9px 0;
+                    display: block;
+                    position: relative;
+                    transition: .4s;
+                    &:hover{
+                        color: $color-alternet;
+                        text-decoration: none;
+                        &:after{
+                            content: '';
+                            width: 2px;
+                            height: 40px;
+                            top: 0;
+                            left: -31px;
+                            background-color: $color-alternet;
+                            position: absolute;
+                        }
+                    }
+                }
+                &:last-child{
+                    border-bottom: 1px solid $color-blue-white;
+                }
+            }
+        }
+    }
+}

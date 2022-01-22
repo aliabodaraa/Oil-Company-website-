@@ -1,0 +1,11 @@
+/* Hilighted paragraph style*/
+
+.hilighted-para{
+    padding: 30px 35px;
+    margin: 2rem 0;
+    background-color: $color-blue-white-light;
+    color: $color-secondary;
+    font-family: $font-hilighted;
+    font-style: italic;
+    border-left: 4px solid $color-alternet;
+}

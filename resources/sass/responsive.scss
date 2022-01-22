@@ -1,0 +1,200 @@
+/*============================================
+* Responsive fixes with media queries (Non-Mobile First Method)
+* ============================================ */
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1268px) {
+    .section-title.with-line::after {
+        content: none;
+        width: 0px;
+        height: 0px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    .section-sub-title.has-line {
+        margin-right: 0;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+    .tabed-section{
+        .tab-content-wrapper{
+            justify-content: space-around;
+            .tab-text-area{
+                max-width: 100%;
+                padding-right: 0;
+            }
+            figure{
+                margin-top: 15px;
+                max-width: 50%;
+            }
+        }
+    }
+    .widget_most_viewed ul li a {
+        display: flex;
+        flex-direction: column;
+        .post-title{
+            padding-left: 0;
+        }
+    }
+    
+    .about-img-gallery,
+    .about-text{
+        padding: 0px;
+    }
+    .history-about{
+        margin-bottom: 50px;
+    }
+    .experience-box .exp-img-wrapper {
+        padding: 0 0 17px 25px;
+    }
+    .widget_category {
+        padding: 32px 17px;
+    }
+    #page-title-area{
+        .text-right{
+            text-align: center!important;
+            margin-top: 15px;
+        }
+    }
+    #footer-copyright-area {
+        text-align: center;
+        nav{
+            margin-top: 10px;
+            ul{
+                justify-content: center;
+                li{
+                    display: inline-block;
+                    a{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+    .section-title.with-line::after {
+        content: none;
+        width: 0px;
+        height: 0px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    .header-top-area{
+        text-align: center;
+        ul{
+            &.header-info-left{
+                float: none;
+                li{
+                    display: inline-block;
+                }
+            }
+            &.header-info-right{
+                float: none;
+                text-align: center;
+                li{
+                    float: none;
+                    text-align: center;
+                    a{
+                        border: none;
+                    }
+                    &:last-child{
+                        a{
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    #page-title-area{
+        .uh-breadcrumb{
+            float: left;
+        }
+        .text-right{
+            text-align: center!important;
+            margin-top: 15px;
+        }
+    }
+    .about-img-gallery{
+        margin-bottom: 30px;
+    }
+    .widget_most_viewed ul li a {
+        display: flex;
+        flex-direction: row;
+        .post-title{
+            padding-left: 10px;
+        }
+    }
+    .widget_category {
+        padding: 32px 31px;
+    }
+    
+    .contact-us-form{
+        button[type='submit']{
+            width: 100%;
+        }
+    }
+    #footer-copyright-area{
+        .col-md-6{
+            margin-bottom: 16px;
+            text-align: center;
+        }
+    }
+    .tabed-section .nav-tabs .nav-item .nav-link{
+        margin-bottom: 15px;
+    }
+    .tabed-section .nav-tabs .nav-item .nav-link .tab-number {
+        margin-bottom: 3px;
+    }
+    .uh-sidebar{
+        margin-top: 50px;
+    }
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+    .item-filter-container .filters li{
+        margin-top: 10px;
+    }
+    .uh-pagination{
+        .page-link{
+            padding: .3rem .55rem;
+        }
+    }
+    #comments ol.children {
+        margin-left: 25px;
+    }
+}
+// Small devices
+@media (max-width: 375px) {
+    #about-us #about-counters .counter-nuber{
+        font-size: 1.75rem;
+    }
+    .tabed-section{
+        .tab-content-wrapper{
+            figure{
+                max-width: 80%;
+            }
+        }
+    }
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 320px) {
+    .navbar-urbanhouse .navbar-brand .brand-title {
+        font-size: 2rem;
+    }    
+    #about-us #about-counters .counter-nuber{
+        font-size: 1.75rem;
+    }  
+    #about-us #about-counters .counter-title{
+        font-size: .5rem;
+    }
+    #comments ol.children {
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,28 @@
+/* Pagination Style */
+.uh-pagination{
+    border-radius: 0;
+    .page-item{
+        margin-right: 4px;
+        .page-link{
+            background-color: $color-primary;
+            color: $color-white;
+            border: none;
+        }
+        
+        &.active{
+            .page-link{
+                background-color: $color-alternet;
+            }
+        }
+        &.too-many{
+            .page-link{
+                background-color: $color-white;
+                color: $color-blue-white;
+            }
+        }
+        &.disabled{
+            display: none;
+        }
+    }
+    
+}

@@ -1,0 +1,83 @@
+/* Template Name: UrbanHouse HTML5 Template
+* Author: Envalab
+* Author URI: http://envalab.com/
+* Author Email: envalabteam@gmail.com 
+* Description: UrbanHouse is a business HTML5 template for construction, building companies and those that offer building services. This template is the perfect solution for you because is a clean and modern template and contain 9 HTML files. All the files are easy to edit and well Documented.
+*/
+
+/*==========================================
+* TABLE OF CONTENTS
+* =========================================== */
+// Variables
+// Mixins
+/*
+* 01. Imported Styles such as Fonts
+* 02. Global and Common Styles
+*    02.1 Modules Styles
+* 03. Header Area style
+*    03.1 Navbar style
+* 04. Slider section Style
+* 05. About Section Style
+* 06. Our Services Section Style
+* 07. Latest Projects Section Style
+* 08. Client Relation Style
+* 09. Services Section style
+* 10. Our Blog Section Style
+* 11. Promo section Style
+* 12. Testimonial Section Style
+* 13. Client Logo Section Style
+* 14. Footer Style
+* 15. Page Title Area style
+* 16. Page Main Container Style
+* 17. Single Post meta style
+* 18. Commnet styles
+* 19. Pages Styles
+* Responsive fixes Style
+*/
+
+// Variables
+@import "base/variables";
+// Mixins
+@import "base/mixins";
+// 01. Imported Styles such as Fonts
+@import "base/imports";
+// 02. Global and Common Styles
+@import "base/globals";
+// 02.1 Modules Styles
+@import "modules/0-dir-modules";
+// 03. Header Area style
+@import "template-part/header-area";
+// 03.1 Navbar style
+@import "template-part/nav-bar";
+// 04. Slider section Style
+@import "template-part/slider-banner";
+// 05. About Section Style
+@import "sections/about-us";
+// 06. Our Services Section Style
+@import "sections/our-services";
+// 07. Latest Projects Section Style
+@import "sections/latest-projects";
+// 08. Client Relation Style
+@import "sections/client-relation";
+// 10. Our Blog Section Style
+@import "sections/our-blog";
+// 11. Promo section Style
+@import "sections/promo-section";
+// 12. Testimonial Section Style
+@import "sections/testimonial-section";
+// 13. Client Logo Section Style
+@import "sections/client-logo-section";
+// 14. Footer Style
+@import "template-part/footer";
+// 15. Page Title Area style
+@import "template-part/page-title-area";
+// 16. Page Main Container Style
+@import "template-part/page-main-container";
+// 17. Single Post meta style
+@import "template-part/single-post-meta";
+// 18. Commnet styles
+@import "template-part/comments";
+// 19. Pages Styles
+@import "pages/_0-dir-pages";
+// Responsive CSS
+@import "responsive";

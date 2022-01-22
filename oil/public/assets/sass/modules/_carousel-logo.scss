@@ -1,0 +1,26 @@
+/* Logo Carousel Style */
+.logo-carousel{
+    .owl-stage{
+        // display: table-cell;
+        // vertical-align: middle;
+    }
+    
+    li{
+        list-style: none;
+        a{
+            height: 65px;
+            display: table-cell;
+            vertical-align: middle;
+            img{
+                opacity: .5;
+            }
+            &:hover{
+                img{
+                    opacity: 1;
+                }
+            }
+        }
+        
+    }
+    
+}

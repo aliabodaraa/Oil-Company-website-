@@ -1,0 +1,20 @@
+/* Single post page meta area style */
+
+.single-post-meta{
+    margin: 70px 0 35px;
+    padding: 35px 0;
+    border-top: 1px solid $color-blue-white-light;
+    border-bottom: 1px solid $color-blue-white-light;
+    .single-post-category,
+    .single-post-tags{
+        font-size: 0.875rem;
+        margin: 0;
+        span{
+            text-transform: uppercase;
+            color: $color-secondary;
+        }
+    }
+    .single-post-category{
+        margin-bottom: 22px;
+    }
+}

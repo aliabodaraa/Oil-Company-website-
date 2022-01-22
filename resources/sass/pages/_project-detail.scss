@@ -1,0 +1,13 @@
+/* Projects Detial Page Style */
+.project-gallery-wrapper{
+    margin-bottom: 65px;
+}
+.project-detail-carousel{
+    margin: 0;
+}
+.lSSlideOuter .lSPager.lSGallery li.active, 
+.lSSlideOuter .lSPager.lSGallery li:hover {
+    border: 2px solid $color-alternet;
+    border-radius: 0;
+    
+}

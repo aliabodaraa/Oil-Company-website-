@@ -1,0 +1,30 @@
+/* General Widget Style */
+
+.widget{
+    margin-bottom: 32px;
+    .widget-title{
+        padding-bottom: 12px;
+        margin-bottom: 31px;
+        border-bottom: 1px solid $color-blue-white-light;
+        position: relative;
+        &::after{
+            content: '';
+            height: 1px;
+            width: 50px;
+            background-color: $color-alternet;
+            left: 0;
+            bottom: -1px;
+            position: absolute;
+        }
+    }
+    ul{
+        padding: 0;
+        list-style: none;
+        margin: 0;
+    }
+    a,
+    p,
+    li{
+        font-size: 0.875rem;
+    }
+}
